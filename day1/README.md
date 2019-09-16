@@ -1,7 +1,6 @@
 # 第一天：挑戰開始：k8s初探＋簡介
 
 Author: Nick Zhuang
-Comment: 字數：1016
 Type: kubernetes
 
 # 前言
