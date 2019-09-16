@@ -78,8 +78,3 @@ k8s提供了一個彈性運行分佈式系統的框架。它可以負責的擴�
 - [k8s的發展藍圖](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/architecture/architectural-roadmap.md)
 - [什麼是k8s？](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
-本文同步刊載於[https://github.com/x1y2z3456](https://github.com/x1y2z3456)
-
-感謝您撥冗閱讀此文章，不喜勿噴，有任何問題建議歡迎下方留言：）
-
-說個笑話，希望我能寫滿30天啊（笑
