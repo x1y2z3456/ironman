@@ -96,8 +96,3 @@ Type: docker
 - [Docker的Cheat Sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf)
 - [什麼是k8s](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
-本文同步刊載於[https://github.com/x1y2z3456/ironman](https://github.com/x1y2z3456/ironman)
-
-感謝您撥冗閱讀此文章，不喜勿噴，有任何問題建議歡迎下方留言：）
-
-說個笑話，希望我能寫滿30天啊（笑
