@@ -5,7 +5,7 @@ Type: kubernetes
 
 # 前言
 
-今天我們來談一下關於k8s的架構，這個觀點是從節點的角度去觀察的，也就是Node，當然早在前面我們有先提過一些，[小複習：k8s的基礎架構](https://www.notion.so/k8s-52425d9c306143029eccdb5c33cb82d9)，在這個章節，我們來詳細說下Node的架構。
+今天我們來談一下關於k8s的架構，這個觀點是從節點的角度去觀察的，也就是Node，當然早在前面我們有先提過一些，[小複習：k8s的基礎架構](https://github.com/x1y2z3456/ironman/blob/master/day1/README.md)，在這個章節，我們來詳細說下Node的架構。
 
 # Node是什麼？
 
@@ -279,4 +279,5 @@ Type: kubernetes
 - [節點概述](https://kubernetes.io/docs/concepts/architecture/nodes/)
 - [主節點通信機制](https://kubernetes.io/docs/concepts/architecture/master-node-communication/)
 - [雲端運算管理器（CCM）](https://kubernetes.io/docs/concepts/architecture/cloud-controller/)
+
 
