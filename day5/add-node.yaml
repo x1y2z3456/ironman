@@ -1,0 +1,10 @@
+{
+  "kind": "Node",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "192.168.10.2",
+    "labels": {
+      "name": "my-first-k8s-node"
+    }
+  }
+}
