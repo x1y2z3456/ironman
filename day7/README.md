@@ -9,7 +9,7 @@ Type: DevOps
 
 # 十二要素
 
-- [CodeBase](#CodeBase)
+- [CodeBase](#https://github.com/x1y2z3456/ironman/tree/master/day7#codebase%E5%9F%BA%E6%BA%96%E4%BB%A3%E7%A2%BC)
 - [Dependencies](#Dependency)
 - [Config](#Config)
 - [Backing services](#Backing )
@@ -75,7 +75,7 @@ Debug流程
 
 後端服務是指程序運行所需要的通過網絡調用的各種服務，如數據庫（MySQL），消息/隊列系統（RabbitMQ），SMTP郵件發送服務（Postfix），以及緩存系統（Memcached）。
 
-在這樣的原則下，應用（app）不會對不同地方提供的服務而有所區別，一般來說，任意的[部署](#CodeBase)，都應該可以在不進行任何代碼改動的情況下，將本地MySQL數據庫換成第三方服務。
+在這樣的原則下，應用（app）不會對不同地方提供的服務而有所區別，一般來說，任意的[部署](#https://github.com/x1y2z3456/ironman/tree/master/day7#codebase%E5%9F%BA%E6%BA%96%E4%BB%A3%E7%A2%BC)，都應該可以在不進行任何代碼改動的情況下，將本地MySQL數據庫換成第三方服務。
 
 我們來看張圖：
 
@@ -89,7 +89,7 @@ Debug流程
 
 ### 嚴格分離建置和運行步驟
 
-[基準代碼](#CodeBase)轉化為一份部署(非開發環境)需要經過以下三個階段：
+[基準代碼](#https://github.com/x1y2z3456/ironman/tree/master/day7#codebase%E5%9F%BA%E6%BA%96%E4%BB%A3%E7%A2%BC)轉化為一份部署(非開發環境)需要經過以下三個階段：
 
 - 建置：與[依賴](#Dependencies)相關，是將代碼轉成執行檔的過程
 •  開發人員可以增加些建置流程，方便Debug，節省開發成本
@@ -105,7 +105,7 @@ Debug流程
 
 在運行環境中，應用程序通常是以一個或多個進程運行的。
 
-這些進程必須是沒有狀態的且彼此之間並沒有共享資源。任何需要持久化的數據都要存儲在[後端服務](#Backing service)內，比如數據庫。
+這些進程必須是沒有狀態的且彼此之間並沒有共享資源。任何需要持久化的數據都要存儲在[後端服務](#Backing )內，比如數據庫。
 
 # Port binding（端口綁定）
 
@@ -140,7 +140,7 @@ Debug流程
 
 **應用的進程應該要是*易處理（disposable）*的，意思是說它們可以瞬間開啟或停止，並追求最小的啟動時間**。
 
-理想狀態下，進程從敲下命令到真正啟動並等待請求的時間應該只需很短的時間。更少的啟動時間提供了更敏捷的[發布](#Build, release, run)以及擴展過程，此外還增加了健壯性，因為進程管理器可以在授權情形下容易的將進程搬到新的物理機器上。
+理想狀態下，進程從敲下命令到真正啟動並等待請求的時間應該只需很短的時間。更少的啟動時間提供了更敏捷的[發布](#Build, )以及擴展過程，此外還增加了健壯性，因為進程管理器可以在授權情形下容易的將進程搬到新的物理機器上。
 
 # Dev/prod parity（開發環境與線上環境等價）
 
