@@ -9,7 +9,7 @@ Type: DevOps
 
 # 十二要素
 
-- [CodeBase](#https://github.com/x1y2z3456/ironman/tree/master/day7#codebase%E5%9F%BA%E6%BA%96%E4%BB%A3%E7%A2%BC)
+- [CodeBase](#CodeBase)
 - [Dependencies](#Dependency)
 - [Config](#Config)
 - [Backing services](#Backing )
@@ -21,6 +21,10 @@ Type: DevOps
 - [Dev/prod parity](#Dev/prod )
 - [Logs](#Logs)
 - [Admin processes](#Admin )
+
+[click on this link](#my-multi-word-header)
+
+### My Multi Word Header
 
 # CodeBase（基準代碼）
 
@@ -75,7 +79,7 @@ Debug流程
 
 後端服務是指程序運行所需要的通過網絡調用的各種服務，如數據庫（MySQL），消息/隊列系統（RabbitMQ），SMTP郵件發送服務（Postfix），以及緩存系統（Memcached）。
 
-在這樣的原則下，應用（app）不會對不同地方提供的服務而有所區別，一般來說，任意的[部署](#https://github.com/x1y2z3456/ironman/tree/master/day7#codebase%E5%9F%BA%E6%BA%96%E4%BB%A3%E7%A2%BC)，都應該可以在不進行任何代碼改動的情況下，將本地MySQL數據庫換成第三方服務。
+在這樣的原則下，應用（app）不會對不同地方提供的服務而有所區別，一般來說，任意的[部署](#CodeBase)，都應該可以在不進行任何代碼改動的情況下，將本地MySQL數據庫換成第三方服務。
 
 我們來看張圖：
 
@@ -89,7 +93,7 @@ Debug流程
 
 ### 嚴格分離建置和運行步驟
 
-[基準代碼](#https://github.com/x1y2z3456/ironman/tree/master/day7#codebase%E5%9F%BA%E6%BA%96%E4%BB%A3%E7%A2%BC)轉化為一份部署(非開發環境)需要經過以下三個階段：
+[基準代碼](#CodeBase)轉化為一份部署(非開發環境)需要經過以下三個階段：
 
 - 建置：與[依賴](#Dependencies)相關，是將代碼轉成執行檔的過程
 •  開發人員可以增加些建置流程，方便Debug，節省開發成本
