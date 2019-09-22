@@ -9,7 +9,7 @@ Type: DevOps
 
 # 十二要素
 
-- [CodeBase](#CodeBase)
+- [CodeBase](#CodeBase（基準代碼）)
 - [Dependencies](#Dependency)
 - [Config](#Config)
 - [Backing services](#Backing )
@@ -21,10 +21,6 @@ Type: DevOps
 - [Dev/prod parity](#Dev/prod )
 - [Logs](#Logs)
 - [Admin processes](#Admin )
-
-[click on this link](#my-multi-word-header)
-
-### My Multi Word Header
 
 # CodeBase（基準代碼）
 
