@@ -12,15 +12,15 @@ Type: DevOps
 - [CodeBase](#CodeBase)
 - [Dependencies](#Dependency)
 - [Config](#Config)
-- [Backing services](#Backing )
-- [Build, release, run](#Build, )
+- [Backing services](#Backing-services)
+- [Build, release, run](#Build,-release,-run)
 - [Processes](#Processes)
-- [Port binding](#Port )
+- [Port binding](#Port-binding)
 - [Concurrency](#Concurrency)
 - [Disposability](#Disposability)
-- [Dev/prod parity](#Dev/prod )
+- [Dev/prod parity](#Dev/prod-parity)
 - [Logs](#Logs)
-- [Admin processes](#Admin )
+- [Admin processes](#Admin-processes)
 
 # CodeBase
 
@@ -37,7 +37,7 @@ Type: DevOps
 - 如果對應多個基準代碼（Codebase），那他就不能算是一個應用（app），而是一個分布式系統
 - 多個應用（app）不應共享一份基準代碼，必須將共享代碼拆分並以[依賴](#Dependencies)去管理
 
-# Dependencies（依賴）
+# Dependencies
 
 ### 明確的宣告並隔離依賴（dependency）
 
@@ -57,7 +57,7 @@ Debug流程
 
 所以可以看到，如果沒有依賴清單或是依賴性是隱性的話排查問題會非常麻煩。
 
-# Config（配置）
+# Config
 
 ### 在環境中存儲配置
 
@@ -69,7 +69,7 @@ Debug流程
 
 使用環境變數的設置就不會有這樣的風險，另外如果變數彼此間獨立性夠強，當應用程序不斷擴展，需要更多種類的部署時，這種配置管理方式就能保有各種部署上的特性。
 
-# Backing services（後端服務）
+# Backing services
 
 ### 把後端服務( backing services )當作附加資源
 
@@ -85,29 +85,29 @@ Debug流程
 
 在這樣的設定下，當數據庫有問題的時候，只要切換做好就可以了，不需要去改代碼。
 
-# Build, release, run（建置，發布，運行）
+# Build, release, run
 
 ### 嚴格分離建置和運行步驟
 
 [基準代碼](#CodeBase)轉化為一份部署(非開發環境)需要經過以下三個階段：
 
 - 建置：與[依賴](#Dependencies)相關，是將代碼轉成執行檔的過程
-•  開發人員可以增加些建置流程，方便Debug，節省開發成本
+  - 開發人員可以增加些建置流程，方便Debug，節省開發成本
 - 發布：與[配置](#Config)相關，結合當前建置與部署的結構，可在實際環境運行
-•  建立release以及rollback的機制，並控制版本號
+  - 建立release以及rollback的機制，並控制版本號
 - 運行：與[進程](#Processes)相關，針對發佈的版本，在實際環境啟動運行一系列的應用（app）
-•  盡量不要在運行階段改code，這樣會混淆到建置的步驟
-•  這個階段不一定需要人為觸發，可以自動進行，也因為如此，會需要保持較少的模塊
+  - 盡量不要在運行階段改code，這樣會混淆到建置的步驟
+  - 這個階段不一定需要人為觸發，可以自動進行，也因為如此，會需要保持較少的模塊
 
-# Processes（進程）
+# Processes
 
 ### 以一個或多個無狀態進程運行應用
 
 在運行環境中，應用程序通常是以一個或多個進程運行的。
 
-這些進程必須是沒有狀態的且彼此之間並沒有共享資源。任何需要持久化的數據都要存儲在[後端服務](#Backing )內，比如數據庫。
+這些進程必須是沒有狀態的且彼此之間並沒有共享資源。任何需要持久化的數據都要存儲在[後端服務](#Backing-services)內，比如數據庫。
 
-# Port binding（端口綁定）
+# Port binding
 
 ### 通過端口綁定( Port binding )來提供服務
 
@@ -115,7 +115,7 @@ Debug流程
 
 **這些應用必須要能夠自我加載**而不依賴於任何網絡服務器就可以創建一個網絡服務。互聯網的應用會**通過端口綁定來提供服務**，並監聽發送至該端口的請求。
 
-# Concurrency（並發）
+# Concurrency
 
 ### 通過進程模型進行擴展
 
@@ -134,15 +134,15 @@ Debug流程
 
 因為進程的無共享及水平分區的特性，上述進程模型會在系統擴展時有顯著的效用。
 
-# Disposability（易處理）
+# Disposability
 
 ### 藉由快速啟動和終止來最大化應用的健壯性
 
 **應用的進程應該要是*易處理（disposable）*的，意思是說它們可以瞬間開啟或停止，並追求最小的啟動時間**。
 
-理想狀態下，進程從敲下命令到真正啟動並等待請求的時間應該只需很短的時間。更少的啟動時間提供了更敏捷的[發布](#Build, )以及擴展過程，此外還增加了健壯性，因為進程管理器可以在授權情形下容易的將進程搬到新的物理機器上。
+理想狀態下，進程從敲下命令到真正啟動並等待請求的時間應該只需很短的時間。更少的啟動時間提供了更敏捷的[發布](#Build,-release,-run)以及擴展過程，此外還增加了健壯性，因為進程管理器可以在授權情形下容易的將進程搬到新的物理機器上。
 
-# Dev/prod parity（開發環境與線上環境等價）
+# Dev/prod parity
 
 ### 盡可能的保持開發，預發布，線上環境相同
 
@@ -164,7 +164,7 @@ Debug流程
 
 不同後端服務的適應器仍然是有用的，因為它們可以使移植後端服務變得簡單。但應用的所有部署，這其中包括開發、預發布以及線上環境，都應該使用同一個後端服務的相同版本。
 
-# Logs（日誌）
+# Logs
 
 ### 把日誌當作事件串流
 
@@ -178,7 +178,7 @@ Debug流程
 - 圖形化一個大規模的趨勢，比如每分鐘的請求量。
 - 根據用戶定義的條件實時觸發警報，比如每分鐘的報錯超過某個警戒線。
 
-# Admin processes（管理進程）
+# Admin processes
 
 ### 後台管理任務當作一次性進程運行
 
