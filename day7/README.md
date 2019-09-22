@@ -18,7 +18,7 @@ Type: DevOps
 - [Port binding](#Port-binding)
 - [Concurrency](#Concurrency)
 - [Disposability](#Disposability)
-- [Dev/prod parity](#Dev-prod-parity)
+- [Dev/prod parity](#Devprod-parity)
 - [Logs](#Logs)
 - [Admin processes](#Admin-processes)
 
@@ -138,7 +138,7 @@ Debug流程
 
 ### 藉由快速啟動和終止來最大化應用的健壯性
 
-**應用的進程應該要是*易處理（disposable）*的，意思是說它們可以瞬間開啟或停止，並追求最小的啟動時間**。
+**應用的進程應該要是*易處理（disposable）*的，意思是說它們可以瞬間開啟或停止，並追求最小的啟動時間。**
 
 理想狀態下，進程從敲下命令到真正啟動並等待請求的時間應該只需很短的時間。更少的啟動時間提供了更敏捷的[發布](#Build-release-run)以及擴展過程，此外還增加了健壯性，因為進程管理器可以在授權情形下容易的將進程搬到新的物理機器上。
 
@@ -146,7 +146,8 @@ Debug流程
 
 ### 盡可能的保持開發，預發布，線上環境相同
 
-**應用若要做到[持續部署](http://avc.com/2011/02/continuous-deployment/)就必須縮小本地與線上差異。**如下所述：
+**應用若要做到[持續部署](http://avc.com/2011/02/continuous-deployment/)就必須縮小本地與線上差異。**
+如下所述：
 
 - 縮小時間差異：開發人員可以快速部署代碼
 - 縮小人員差異：開發人員應該密切參與部署過程以及代碼在線上的表現
