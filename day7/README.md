@@ -10,15 +10,15 @@ Type: DevOps
 # 十二要素
 
 - [CodeBase](#CodeBase)
-- [Dependencies](#Dependency)
+- [Dependencies](#Dependencies)
 - [Config](#Config)
 - [Backing services](#Backing-services)
-- [Build, release, run](#Build,-release,-run)
+- [Build, release, run](#Build-release-run)
 - [Processes](#Processes)
 - [Port binding](#Port-binding)
 - [Concurrency](#Concurrency)
 - [Disposability](#Disposability)
-- [Dev/prod parity](#Dev/prod-parity)
+- [Dev/prod parity](#Dev-prod-parity)
 - [Logs](#Logs)
 - [Admin processes](#Admin-processes)
 
@@ -140,7 +140,7 @@ Debug流程
 
 **應用的進程應該要是*易處理（disposable）*的，意思是說它們可以瞬間開啟或停止，並追求最小的啟動時間**。
 
-理想狀態下，進程從敲下命令到真正啟動並等待請求的時間應該只需很短的時間。更少的啟動時間提供了更敏捷的[發布](#Build,-release,-run)以及擴展過程，此外還增加了健壯性，因為進程管理器可以在授權情形下容易的將進程搬到新的物理機器上。
+理想狀態下，進程從敲下命令到真正啟動並等待請求的時間應該只需很短的時間。更少的啟動時間提供了更敏捷的[發布](#Build-release-run)以及擴展過程，此外還增加了健壯性，因為進程管理器可以在授權情形下容易的將進程搬到新的物理機器上。
 
 # Dev/prod parity
 
