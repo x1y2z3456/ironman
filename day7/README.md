@@ -12,15 +12,15 @@ Type: DevOps
 - [CodeBase](#CodeBase)
 - [Dependencies](#Dependency)
 - [Config](#Config)
-- [Backing services](#Backing services)
-- [Build, release, run](#Build, release, run)
+- [Backing services](#Backing )
+- [Build, release, run](#Build, )
 - [Processes](#Processes)
-- [Port binding](#Port binding)
+- [Port binding](#Port )
 - [Concurrency](#Concurrency)
 - [Disposability](#Disposability)
-- [Dev/prod parity](#Dev/prod parity)
+- [Dev/prod parity](#Dev/prod )
 - [Logs](#Logs)
-- [Admin processes](#Admin processes)
+- [Admin processes](#Admin )
 
 # CodeBase（基準代碼）
 
