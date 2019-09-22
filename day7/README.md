@@ -9,7 +9,7 @@ Type: DevOps
 
 # 十二要素
 
-- [CodeBase](#CodeBase（基準代碼）)
+- [CodeBase](#CodeBase)
 - [Dependencies](#Dependency)
 - [Config](#Config)
 - [Backing services](#Backing )
@@ -22,7 +22,7 @@ Type: DevOps
 - [Logs](#Logs)
 - [Admin processes](#Admin )
 
-# CodeBase（基準代碼）
+# CodeBase
 
 ### 一份基準代碼（Codebase），多份部署（deploy）
 
