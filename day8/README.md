@@ -65,13 +65,13 @@ Pod是k8s中可以被創造或是發布的最小的單位，一個 Pod 在k8s世
     my-helloworld   1/1     Running   0          2m21s
 
 Pod的狀態
-|Value    |Description   |
-|---------|--------------|
-|Pending  |Pod已被k8s接受，但尚未創建完成，這可能需要一段時間。|
-|Running  |Pod已創建所有Container。至少有一個Container仍在運行，或者正在啟動或重新啟動。|
-|Succeeded|Pod中的所有Container都已成功終止，並且不會重新啟動。|
-|Failed   |Pod中的所有Container都已終止，Container不是退出非零狀態，就是被系統終止。|
-|Unknown  |由於某種原因，無法獲得Pod的狀態，這通常是由於與Pod的主機通信時出錯。|
+|Value    |Description                                                         |
+|---------|--------------------------------------------------------------------|
+|Pending  |Pod已被k8s接受，但尚未創建完成，這可能需要一段時間。                        |
+|Running  |Pod已創建所有Container。至少有一個Container仍在運行，或者正在啟動或重新啟動。 |
+|Succeeded|Pod中的所有Container都已成功終止，並且不會重新啟動。                       |
+|Failed   |Pod中的所有Container都已終止，Container不是退出非零狀態，就是被系統終止。    |
+|Unknown  |由於某種原因，無法獲得Pod的狀態，這通常是由於與Pod的主機通信時出錯。           |
 
 看起來沒啥問題，不過讓我們思考一個問題：
 
