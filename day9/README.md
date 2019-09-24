@@ -231,7 +231,7 @@ OK，看起來沒啥問題，接著我們來操作下Deployment的功能：
 
 k8s服務是一個abstraction，它定義了一組邏輯Pod和一個訪問它們的策略 - 有時稱為micro-service。負責不同Pod之間的溝通，舉例來說，像是前後端的服務需要互相溝通的時候，可以做同步異步的處理。
 
-還記得我們之前提過的helloworld應用嗎？這是[第三天](https://www.notion.so/k8s-minikube-yaml-25926f67c88a422682df274a1d4dff70)minikube的內容，那個時候我們需要去做port forwarding才能驗證我們pod裡面的網頁helloworld，那個時候有提到可以不用這麼麻煩，今天我們就來解開這個神秘的面紗。
+還記得我們之前提過的helloworld應用嗎？這是[第三天](https://github.com/x1y2z3456/ironman/blob/master/day3/README.md)minikube的內容，那個時候我們需要去做port forwarding才能驗證我們pod裡面的網頁helloworld，那個時候有提到可以不用這麼麻煩，今天我們就來解開這個神秘的面紗。
 
 這是我們之前用的pod設定檔：
 
