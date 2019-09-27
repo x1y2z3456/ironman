@@ -328,9 +328,3 @@ DaemonSet能確保部份或所有node運行Pod的副本持續運行。
 
 - StatefulSet簡介
 - DaemonSet簡介
-
-本文同步刊載於[https://github.com/x1y2z3456/ironman](https://github.com/x1y2z3456/ironman)
-
-感謝您撥冗閱讀此文章，不喜勿噴，有任何問題建議歡迎下方留言：）
-
-說個笑話，希望我能寫滿30天啊（笑
