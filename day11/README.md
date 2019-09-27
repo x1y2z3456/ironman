@@ -134,7 +134,7 @@ Type: kubernetes
       Normal  CREATE  47m   nginx-ingress-controller  Ingress default/test
       Normal  UPDATE  46m   nginx-ingress-controller  Ingress default/test
 
-OK，這是示例是要把近來的連線導到同一個host底下的不同的Service，如：svc1和svc2這兩個Service，這個設置可以用nodePort=LoadBalance取代，但在公有雲上，這樣的設置可以有效的減少loadBalance的使用。
+OK，這是示例是要把近來的連線導到同一個host底下的不同的Service，如：svc1和svc2這兩個Service，這個設置可以用nodePort=LoadBalance取代，但在公有雲上，這樣的設置可以有效的減少loadBalance的使用
 
 當這種轉發規則沒要用的時候，就可以：
 
