@@ -134,14 +134,14 @@ nodeAffinity有兩種策略：preferredDuringSchedulingIgnoredDuringExecution和
 
 可以看到在affinity的區塊，有設置了nodeAffinity，其中requiredDuringSchedulingIgnoredDuringExecution代表了硬需求，注意到這裡寫的nodeSelectorTerms，在這個區塊底下，如果沒有寫matchExpressions的話，那麼在它底下所列出的條件，只要滿足其中一項就可以了，但在這個例子有寫matchExpressions，所以在matchExpressions底下所列的條件全都要滿足才會調度，關於matchExpressions的key有些系統本身自帶的可以選擇自行套用，可以參考下：
 
-    |build-in node label                      |
-    |-----------------------------------------|
-    |kubernetes.io/hostname                   |
-    |failure-domain.beta.kubernetes.io/zone   |
-    |failure-domain.beta.kubernetes.io/region |
-    |beta.kubernetes.io/instance-type         |
-    |beta.kubernetes.io/os                    |
-    |beta.kubernetes.io/arch                  |
+|build-in node label                      |
+|-----------------------------------------|
+|kubernetes.io/hostname                   |
+|failure-domain.beta.kubernetes.io/zone   |
+|failure-domain.beta.kubernetes.io/region |
+|beta.kubernetes.io/instance-type         |
+|beta.kubernetes.io/os                    |
+|beta.kubernetes.io/arch                  |
 
 這邊是檢查主機名稱：kubernetes.io/hostname
 
@@ -244,11 +244,11 @@ P.S. namespace的觀念，後面管理篇會介紹
 
 最後我們整理一下比較表
 
-    |調度策略         |匹配標籤 |操作符                                   |拓撲域支持   |調度目標              |
-    |----------------|-------|----------------------------------------|----------- |--------------------|
-    |nodeAffinity    |Node   |In, NotIn, Exists, DoesNotExist, Gt, Lt |否          |指定主機              |
-    |podAffinity     |Pod    |In, NotIn, Exists, DoesNotExist         |是          |Pod與指定Pod同一拓撲域 |
-    |podAnitAffinity |Pod    |In, NotIn, Exists, DoesNotExist         |是          |Pod與指定Pid同一拓撲域 |
+|調度策略         |匹配標籤 |操作符                                   |拓撲域支持   |調度目標              |
+|----------------|-------|----------------------------------------|----------- |--------------------|
+|nodeAffinity    |Node   |In, NotIn, Exists, DoesNotExist, Gt, Lt |否          |指定主機              |
+|podAffinity     |Pod    |In, NotIn, Exists, DoesNotExist         |是          |Pod與指定Pod同一拓撲域 |
+|podAnitAffinity |Pod    |In, NotIn, Exists, DoesNotExist         |是          |Pod與指定Pid同一拓撲域 |
 
 好的，所有Affinity的部分到這邊結束。
 
