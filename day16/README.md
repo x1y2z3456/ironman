@@ -369,8 +369,7 @@ Node上的eviction有些設定可以修改，像是設置eviction policy，這�
     boot  etc  lib   media  opt  root  sbin  sys  usr
     root@helloworld-deployment-c98bf6d9f-6fv7p:/# cd root
     root@helloworld-deployment-c98bf6d9f-6fv7p:~# ls
-    root@helloworld-deployment-c98bf6d9f-6fv7p:~# dd if=/dev/zero of=./test.dat bs=4096 count
-    =1024000
+    root@helloworld-deployment-c98bf6d9f-6fv7p:~# dd if=/dev/zero of=./test.dat bs=4096 count=1024000
     1024000+0 records in
     1024000+0 records out
     4194304000 bytes (4.2 GB, 3.9 GiB) copied, 13.6194 s, 308 MB/s
