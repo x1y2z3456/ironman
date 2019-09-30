@@ -585,8 +585,3 @@ OK，經測試會將超出limit的Pod都逐出，直到系統沒有Memory Pressu
 - [Eviction Policy Test](https://www.alibabacloud.com/blog/kubernetes-eviction-policies-for-handling-low-ram-and-disk-space-situations---part-1_595202)
 - [Minikube Set Up](https://magda.io/docs/installing-minikube.html)
 
-本文同步刊載於[https://github.com/x1y2z3456/ironman](https://github.com/x1y2z3456/ironman)
-
-感謝您撥冗閱讀此文章，不喜勿噴，有任何問題建議歡迎下方留言：）
-
-說個笑話，希望我能寫滿30天啊（笑
