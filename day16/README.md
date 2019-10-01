@@ -415,7 +415,7 @@ Node上的eviction有些設定可以修改，像是設置eviction policy，這�
 
 - `kubelet.eviction-hard`：這是硬性規定，`memory.available`是記憶體限制，若剩餘少於400MB則將Pod逐出
 - `kubelet.feature-gates`：這是為了minikube單節點用的，避免一些關鍵Pod被逐出
-- `kubelet.eviction-pressure-transition-period`：滿足硬性規則的指定時間則將Pod逐出，這裡是30s
+- `kubelet.eviction-pressure-transition-period`：kubelet從壓力狀態中退出之前必須等待的時間，這裡是30s
 - `kubelet.eviction-soft`：這是軟性規定，`memory.available`是記憶體限制，若剩餘少於600MB則考慮將其逐出
 - `kubelet.eviction-soft-grace-period`：滿足軟性規則的指定時間，這裡是在真正逐出之前，會有2分鐘的可用時間
 
