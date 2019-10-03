@@ -1,7 +1,3 @@
-# 第十八天：k8s之十一：管理篇延伸，兩個H的小故事：Harbor與Helm
-
-Author: Nick Zhuang
-Type: kubernetes
 
 # 前言
 
@@ -9,7 +5,7 @@ Type: kubernetes
 
 # Harbor
 
-對Docker不太熟悉的朋友，小複習可以參考[這裡](https://www.notion.so/Docker-1a925afbe1be46ccb8416563eb31d1c3)，下面直接以Linux的Ubuntu為基底操作
+對Docker不太熟悉的朋友，小複習可以參考[這裡](https://ithelp.ithome.com.tw/articles/10216560)，下面直接以Linux的Ubuntu為基底操作
 
 ## Set Up Docker Private Registry
 
@@ -91,7 +87,7 @@ Type: kubernetes
 
 網頁登入(admin, Harbor12345)，新增test這個Project
 
-![](_2019-06-11_3-b3227fdd-3664-4cae-8e26-5963eab7c7d0.05.13.png)
+![https://ithelp.ithome.com.tw/upload/images/20191003/20120468sQAFONuX1t.png](https://ithelp.ithome.com.tw/upload/images/20191003/20120468sQAFONuX1t.png)
 
 依照新增的Project(如:test)，登入上傳image
 
@@ -103,11 +99,11 @@ Type: kubernetes
 
 可以看到新上傳的image
 
-![](_2019-06-11_3-f555aee8-8457-475a-80de-21cebd81f922.17.04.png)
+![https://ithelp.ithome.com.tw/upload/images/20191003/20120468Hj3Ijuylo7.png](https://ithelp.ithome.com.tw/upload/images/20191003/20120468Hj3Ijuylo7.png)
 
 在Project裡面可以直接刪除image，再進到裡面那層test，可以對個別image做更細緻的操作
 
-![](_2019-06-11_3-c1c2a2b0-e752-4b13-b6e8-6a0225d4cd8c.25.51.png)
+![https://ithelp.ithome.com.tw/upload/images/20191003/20120468gQekyGe2yd.png](https://ithelp.ithome.com.tw/upload/images/20191003/20120468gQekyGe2yd.png)
 
 ## 總結
 
