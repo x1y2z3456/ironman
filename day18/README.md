@@ -1,3 +1,7 @@
+# 第十八天：k8s之十一：管理篇延伸，兩個H的小故事：Harbor與Helm
+
+Author: Nick Zhuang
+Type: kubernetes
 
 # 前言
 
