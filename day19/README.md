@@ -32,8 +32,6 @@ Type: kubernetes
 
 CCM 打破了k8s控制器管理器（KCM）的一些功能，並將其作為一個單獨的進程運行。具體來說，它打破了KCM中依賴於雲的控制器。
 
-注意卷控制器不屬於CCM，由於其中涉及到的複雜性和對現有供應商特定卷的邏輯抽象，因此決定了卷控制器不會被移動到CCM 之中。
-
 CCM可以設置ClusterRole以達成授權，這部分與介紹RBAC時類似
 
     apiVersion: rbac.authorization.k8s.io/v1
