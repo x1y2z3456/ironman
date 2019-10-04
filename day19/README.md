@@ -5,7 +5,7 @@ Type: kubernetes
 
 # 前言
 
-今天我們要延續之前的內容，在上雲端之前，先介紹一下CCM，所謂的CCM是Cloud Controller Manager，在雲端服務上它是基於k8s集群上的一個管理器，~~QOO有種果汁真好喝，~~EOO元件介紹AWS，是一些在AWS的基本元件，如：EC2、EBS、ELB、EFS、EKS、ENI、ECR，接著是EKS和KOPS的比較，說明為何要用EKS。最後是一些使用AWS的前置準備，要先設置下。
+今天我們要延續之前的內容，在上雲端之前，先介紹一下CCM，所謂的CCM是Cloud Controller Manager，在雲端服務上它是基於k8s集群上的一個管理器，~~QOO有種果汁真好喝~~EOO元件介紹AWS，是一些在AWS的基本元件，如：EC2、EBS、ELB、EFS、EKS、ENI、ECR，接著是EKS和KOPS的比較，說明為何要用EKS。最後是一些使用AWS的前置準備，要先設置下。
 
 # CCM
 
