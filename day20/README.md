@@ -250,8 +250,3 @@ OK，到這邊關於創建k8s的控制介面的部分就結束囉！
 - [AWS VPC](https://aws.amazon.com/tw/vpc/faqs/)
 - [AWS Cloud Formation](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-direct.html)
 
-本文同步刊載於[https://github.com/x1y2z3456/ironman](https://github.com/x1y2z3456/ironman)
-
-感謝您撥冗閱讀此文章，不喜勿噴，有任何問題建議歡迎下方留言：）
-
-說個笑話，希望我能寫滿30天啊（笑
