@@ -406,7 +406,6 @@ OK，可以發現到透過設置Load Balancer達到依所設置的名稱，使�
 好了恢復原狀
 
     $kubectl delete -f .
-    kubectl delete -f .
     service "greeting-service" deleted
     deployment.extensions "greeting" deleted
     service "caddy-service" deleted
