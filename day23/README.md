@@ -403,6 +403,21 @@ Create Load Balancer
 OK，可以發現到透過設置Load Balancer達到依所設置的名稱，使用指定的Service的效果！
 
 這個Ingress還可以設置Dashboard，這部分就留給讀者自行探索囉！
+好了恢復原狀
+
+    $kubectl delete -f .
+    kubectl delete -f .
+    service "greeting-service" deleted
+    deployment.extensions "greeting" deleted
+    service "caddy-service" deleted
+    deployment.extensions "caddy" deleted
+    service "nginx-service" deleted
+    deployment.extensions "nginx" deleted
+    ingress.extensions "traefik-ingress" deleted
+    serviceaccount "ingress" deleted
+    clusterrolebinding.rbac.authorization.k8s.io "ingress" deleted
+    service "traefik-ingress-lb-svc" deleted
+    daemonset.extensions "traefik-ingress-lb" deleted
 
 # 小結
 
