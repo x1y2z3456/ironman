@@ -193,7 +193,7 @@ OK，可以知道有兩個節點，接著我們來操作下
 
 我們先準備一個測試用的Pod，這是我們之前測試Deployment的內容
 
-    $vim pod-deploy.yaml
+    $vim pod-deploy-affinity.yaml
     apiVersion: extensions/v1beta1
     kind: Deployment
     metadata:
