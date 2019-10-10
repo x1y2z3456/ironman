@@ -76,6 +76,7 @@ Type: kubernetes
 - 外部IP是AWS提供的DNS：a81124d1de99711e9a6660a7201ce556-1276776701.ap-southeast-1.elb.amazonaws.com
 - Port的部分：它會將你對該DNS的瀏覽請求轉發到30256這邊
 
+
     $kubectl get svc
     NAME         TYPE           CLUSTER-IP      EXTERNAL-IP                                                                    PORT(S)        AGE
     kubernetes   ClusterIP      10.100.0.1      <none>                                                                         443/TCP        4h54m
@@ -116,6 +117,7 @@ Deployment的設定：
 - image改成abiosoft/caddy:php
 - containerPort改成2015
 
+    
     $kubectl edit deploy/nginx
     deployment.extensions/nginx edited
 
