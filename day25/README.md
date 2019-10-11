@@ -10,11 +10,15 @@ Type: kubernetes
 
 管理篇的部分與進階篇相同，分為上下兩篇，我們將會把之前運用在minikube的設定套用到AWS的群集上。
 
-管理篇（上）：服務、監控
+管理篇（上）：服務、監控（今天）
 
-管理篇（下）：資源控制、虛擬集群、使用者管理、RBAC
+管理篇（下）：資源控制、虛擬集群、使用者管理、RBAC（明天）
 
-複習傳送門：[Day14](https://ithelp.ithome.com.tw/articles/10222296)、[Day15](https://ithelp.ithome.com.tw/articles/10222926)、[Day17](https://ithelp.ithome.com.tw/articles/10223717)
+複習傳送門：
+
+- [[Day14] k8s管理篇（一）：Monitoring、Job、CronJob](https://www.notion.so/Day14-k8s-Monitoring-Job-CronJob-ddcbf117e6ed49bbb2d4d2b1dbd39021)
+- [[Day15] k8s管理篇（二）：Resource Quota、Namespaces](https://www.notion.so/Day15-k8s-Resource-Quota-Namespaces-17a70a524a854a198ae23818e16bb7d9)
+- [[Day17] k8s管理篇（三）：User Management、RBAC、Node Ｍaintenance](https://www.notion.so/Day17-k8s-User-Management-RBAC-Node-aintenance-c19b2da1e50f4e4abaeb923cd41998f7)
 
 # 管理篇（上）
 
