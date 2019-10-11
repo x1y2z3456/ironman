@@ -1,4 +1,4 @@
-# 第十三天：k8s之六：進階篇之四，Affinity and Anti-Affinity、Taints and Tolerations
+# [Day13] k8s進階篇（四）：Affinity and Anti-Affinity、Taints and Tolerations
 
 Author: Nick Zhuang
 Type: kubernetes

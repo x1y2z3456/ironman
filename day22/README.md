@@ -1,4 +1,4 @@
-# 第二十二天：k8s基礎篇延伸與EKS
+# [Day22] k8s基礎篇延伸與EKS：Pod、Label、Probe、Scaling
 
 Author: Nick Zhuang
 Type: kubernetes

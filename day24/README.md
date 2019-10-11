@@ -1,4 +1,4 @@
-# 第二十四天：k8s進階篇延伸與EKS（二）
+# [Day24] k8s進階篇延伸與EKS（二）：Affinity、Taint、Cordon
 
 Author: Nick Zhuang
 Type: kubernetes

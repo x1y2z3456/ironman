@@ -1,4 +1,4 @@
-# 第十一天：k8s之四：進階篇之二，Ingress、Volume、PodPreset
+# [Day11] k8s進階篇（二）：Ingress、Volume、PodPreset
 
 Author: Nick Zhuang
 Type: kubernetes

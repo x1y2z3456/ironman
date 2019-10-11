@@ -1,4 +1,4 @@
-# 第三天：k8s的小型測試環境：minikube安裝與使用，簡易驗證yaml的正確性
+# [Day3] k8s的小型測試環境：minikube安裝與使用，簡易驗證yaml的正確性
 
 Author: Nick Zhuang
 Type: docker,kubernetes

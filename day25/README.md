@@ -1,4 +1,4 @@
-# 第二十五天：k8s管理篇延伸與EKS（一）
+# [Day25] k8s管理篇延伸與EKS（一）：Service Discovery、Dashboard、Monitoring
 
 Author: Nick Zhuang
 Type: kubernetes

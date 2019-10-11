@@ -1,4 +1,4 @@
-# 第二天：一日碼頭工：快速Docker複習
+# [Day2] 一日碼頭工：快速Docker複習
 
 Author: Nick Zhuang
 Type: docker

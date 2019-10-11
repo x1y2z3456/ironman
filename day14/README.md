@@ -1,4 +1,4 @@
-# 第十四天：k8s之七：管理篇之一，Monitoring、Job、CronJob
+# [Day14] k8s管理篇（一）：Monitoring、Job、CronJob
 
 Author: Nick Zhuang
 Type: kubernetes

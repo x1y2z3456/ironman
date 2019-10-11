@@ -1,4 +1,4 @@
-# 第八天：k8s之一：基礎篇之一，Pod、Label、Health check、Scaling
+# [Day8] k8s基礎篇（一）：Pod、Label、Health check、Scaling
 
 Author: Nick Zhuang
 Type: kubernetes

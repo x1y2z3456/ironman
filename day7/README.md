@@ -1,4 +1,4 @@
-# 第七天：想想我們為何而來：一個完整DevOps開發流程的十二個要素
+# [Day7] 想想我們為何而來：一個完整DevOps開發流程的十二個要素
 
 Author: Nick Zhuang
 Type: DevOps

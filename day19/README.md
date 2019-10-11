@@ -1,4 +1,4 @@
-# 第十九天：k8s之十二：上雲端之路：AWS之蓄勢待發：EOO
+# [Day19] k8s上雲端之路：AWS之蓄勢待發：EOO
 
 Author: Nick Zhuang
 Type: kubernetes

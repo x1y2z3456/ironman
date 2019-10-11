@@ -1,4 +1,4 @@
-# 第十天：k8s之三：進階篇之一，Service Discovery、ConfigMap
+# [Day10] k8s進階篇（一）：Service Discovery、ConfigMap
 
 Author: Nick Zhuang
 Type: kubernetes

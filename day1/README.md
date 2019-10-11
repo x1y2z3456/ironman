@@ -1,4 +1,4 @@
-# 第一天：挑戰開始：k8s初探＋簡介
+# [Day1] 挑戰開始：k8s初探＋簡介
 
 Author: Nick Zhuang
 Type: kubernetes

@@ -1,4 +1,4 @@
-# 第十五天：k8s之八：管理篇之二，Resource Quota、Namespaces
+# [Day15] k8s管理篇（二）：Resource Quota、Namespaces
 
 Author: Nick Zhuang
 Type: kubernetes

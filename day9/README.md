@@ -1,4 +1,4 @@
-# 第九天：k8s之二：基礎篇之二，Deployment、ReplicaSet、Service、Secrets
+# [Day9] k8s基礎篇（二）：Deployment、ReplicaSet、Service、Secrets
 
 Author: Nick Zhuang
 Type: kubernetes

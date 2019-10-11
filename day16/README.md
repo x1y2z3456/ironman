@@ -1,4 +1,4 @@
-# 第十六天：k8s之九：PV小整合：Pod、Deployment、Service、Job與PersistentVolume 
+# [Day16] k8s之PV小整合：Pod、Deployment、Service、Job與PersistentVolume 
 
 Author: Nick Zhuang
 Type: kubernetes

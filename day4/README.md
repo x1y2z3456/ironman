@@ -1,4 +1,4 @@
-# 第四天：碼頭工的日常與舵手的逆襲：Docker與k8s常用指令集比較
+# [Day4] 碼頭工的日常與舵手的逆襲：Docker與k8s常用指令集比較
 
 Author: Nick Zhuang
 Type: kubernetes

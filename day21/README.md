@@ -1,4 +1,4 @@
-# 第二十一天：k8s之十四：實務篇之二：EKS架設k8s（下）
+# [Day21] k8s實務篇（二）：EKS架設k8s（下）
 
 Author: Nick Zhuang
 Type: kubernetes

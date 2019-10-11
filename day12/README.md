@@ -1,4 +1,4 @@
-# 第十二天：k8s之五：進階篇之三，StatefulSet、DaemonSet
+# [Day12] k8s進階篇（三）：StatefulSet、DaemonSet
 
 Author: Nick Zhuang
 Type: kubernetes

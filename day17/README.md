@@ -1,4 +1,4 @@
-# 第十七天：k8s之十：管理篇之三，User Management、RBAC、Node Ｍaintenance
+# [Day17] k8s管理篇（三）：User Management、RBAC、Node Ｍaintenance
 
 Author: Nick Zhuang
 Type: kubernetes

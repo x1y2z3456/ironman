@@ -1,4 +1,4 @@
-# 第二十三天：k8s進階篇延伸與EKS（一）
+# [Day23] k8s進階篇延伸與EKS（一）：Ingress、ELB、Service
 
 Author: Nick Zhuang
 Type: kubernetes

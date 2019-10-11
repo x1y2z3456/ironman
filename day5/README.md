@@ -1,4 +1,4 @@
-# 第五天：淺談k8s架構之一：Node是什麼？Master與Slave有何不同？
+# [Day5] 淺談k8s架構之一：Node是什麼？Master與Slave有何不同？
 
 Author: Nick Zhuang
 Type: kubernetes
