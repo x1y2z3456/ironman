@@ -215,58 +215,58 @@ OK，測試成功！
 
 - Private Key
 ```
-    $vim ~/.aws/nick.key
-    -----BEGIN RSA PRIVATE KEY-----
-    MIIEpQIBAAKCAQEAo4/nVKTIeMt+byJq2RlRPwaQrpKaz3vv29leJbe72hh42sKK
-    o+QTTWMVAVZ53Uh+slrAk/oIo7Fd4iAugHekMEUpPrbRo19rQ35HR7JS6GotyVcR
-    4T0VuBPMb2ut18KZgA1rIjX67Jl2RQXolo8mEve09xH/uVVEr6QmcUBy3ms3lfgB
-    Pv424JObt8SfRm0Km3ZSNcJTH4/wIl2FIDccibROvll6ws9sS/pdxOXcmD/N0kV9
-    /qHn9l/6+oOqwvTh/3zHAfFzNlIgWDKo1cYe4A0Gl6oRKyObjR1ruB7oA3x9hOKy
-    FJY9akO9IXiiOv/1FELhit5MD75BdzZm5nMs6wIDAQABAoIBAQCYTSpKLfqiSFJd
-    5714lFOMDW/xrn/LDgvmOnypQHICfmEiyp3QSFMU71si2MQ3IgcfytOhtuQOkNzr
-    7619YGqZq/zg8dk5eGNoAJEdGNaMpjomThZPFtM/iegGJE1HKGRI0bXdsEgLwkZX
-    tU3DzF3WsaNnoPHvQI/pwT8um6WaptxwrFQP0gixaRAnylzRLrFNFvEDUPo8cEQq
-    WgqAqctjufm+2+sm+0gO1+wdsPNrdHAoWxLs5MN8oqiZmtuFDoNA5g6usOv/aQNO
-    wxpvCToIPUWg7fbCklSNftl4BFDJ9U/hFsXks0zbEvtKQZ3UrN+eqoE0I1Jo+y10
-    8u0TCbnBAoGBANIAJppynsihrwLyMm953B/eazkNszBaMPlK1KkjnjjYPFTPWU1K
-    a3KKCFmm4yISX5uIfeHmD/cugBeF0IZDEURc4Ia4purjP9o+t5QeWYUtLA7lniwh
-    xu4rTAzhlSfV7EeC9M1/P3RG+w3cfOaFi5KThU2I9ynLLv3dwXZtv5dhAoGBAMdj
-    s4WMDOeHmx+FISMi44GRBAq2RiAzr1ARKRV2syzSkNEvHUQF5P82+1iPXzYOQG5w
-    8o6Xp593pQCUpaFEhogUXWuN+kIdlLOqYO2vhJ/347UbfVMbYzd9nc9Rtm/JuvEi
-    8gVXE3MKz5tiWDQLoBqV8QnuMUpyPrOPL5IYwAPLAoGBAIDsCscC2yw85p6eZgw9
-    +b+u4pCyMnHazPoe0JPOBBLN3awLZ72llHVK/HldlU+TjBKGJxIKFX8gkw7d3fiv
-    L+iSRF0w+3h0bvzjR/ys7TRvWP8ERKi/S8tn1VaLHvDHyjjU0sld92zBLtuBo0Q6
-    dEdWPZ4uGd8UmBLOkzjLg7XBAoGBAKqgbFklX0mm5x2THKdnzM7s3UuZbetSr3zS
-    IplGidAapWkNa3rxnGS2lWLU1kJ48bRRHZDewMgbZ+1WR2L5NDMxUjyfNADuNXmG
-    nQnpwJHwXUF3s8ix0DcFXU2z/G4vcLW4FOpy+KbjIoQzJY3sQOdfVvULi8zMdVHN
-    f4UDfxX/AoGABniIKUWGs9xc+gPGPiNXXm9DZjU2XpzaYbXVPqcu2i3HSXUoxGbX
-    /N8cIfqiVGVWIx0Kp69KNxZUMZYH0TeN02G5mCQ7Wasgf198FlCL+kVUR03ankEY
-    cpdfqvvkZLaCMFOnJ88jj/vuzLo6zpoO8WDm1mN8ptzTcjQrNpUgEyo=
-    -----END RSA PRIVATE KEY-----
+  $vim ~/.aws/nick.key
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpQIBAAKCAQEAo4/nVKTIeMt+byJq2RlRPwaQrpKaz3vv29leJbe72hh42sKK
+  o+QTTWMVAVZ53Uh+slrAk/oIo7Fd4iAugHekMEUpPrbRo19rQ35HR7JS6GotyVcR
+  4T0VuBPMb2ut18KZgA1rIjX67Jl2RQXolo8mEve09xH/uVVEr6QmcUBy3ms3lfgB
+  Pv424JObt8SfRm0Km3ZSNcJTH4/wIl2FIDccibROvll6ws9sS/pdxOXcmD/N0kV9
+  /qHn9l/6+oOqwvTh/3zHAfFzNlIgWDKo1cYe4A0Gl6oRKyObjR1ruB7oA3x9hOKy
+  FJY9akO9IXiiOv/1FELhit5MD75BdzZm5nMs6wIDAQABAoIBAQCYTSpKLfqiSFJd
+  5714lFOMDW/xrn/LDgvmOnypQHICfmEiyp3QSFMU71si2MQ3IgcfytOhtuQOkNzr
+  7619YGqZq/zg8dk5eGNoAJEdGNaMpjomThZPFtM/iegGJE1HKGRI0bXdsEgLwkZX
+  tU3DzF3WsaNnoPHvQI/pwT8um6WaptxwrFQP0gixaRAnylzRLrFNFvEDUPo8cEQq
+  WgqAqctjufm+2+sm+0gO1+wdsPNrdHAoWxLs5MN8oqiZmtuFDoNA5g6usOv/aQNO
+  wxpvCToIPUWg7fbCklSNftl4BFDJ9U/hFsXks0zbEvtKQZ3UrN+eqoE0I1Jo+y10
+  8u0TCbnBAoGBANIAJppynsihrwLyMm953B/eazkNszBaMPlK1KkjnjjYPFTPWU1K
+  a3KKCFmm4yISX5uIfeHmD/cugBeF0IZDEURc4Ia4purjP9o+t5QeWYUtLA7lniwh
+  xu4rTAzhlSfV7EeC9M1/P3RG+w3cfOaFi5KThU2I9ynLLv3dwXZtv5dhAoGBAMdj
+  s4WMDOeHmx+FISMi44GRBAq2RiAzr1ARKRV2syzSkNEvHUQF5P82+1iPXzYOQG5w
+  8o6Xp593pQCUpaFEhogUXWuN+kIdlLOqYO2vhJ/347UbfVMbYzd9nc9Rtm/JuvEi
+  8gVXE3MKz5tiWDQLoBqV8QnuMUpyPrOPL5IYwAPLAoGBAIDsCscC2yw85p6eZgw9
+  +b+u4pCyMnHazPoe0JPOBBLN3awLZ72llHVK/HldlU+TjBKGJxIKFX8gkw7d3fiv
+  L+iSRF0w+3h0bvzjR/ys7TRvWP8ERKi/S8tn1VaLHvDHyjjU0sld92zBLtuBo0Q6
+  dEdWPZ4uGd8UmBLOkzjLg7XBAoGBAKqgbFklX0mm5x2THKdnzM7s3UuZbetSr3zS
+  IplGidAapWkNa3rxnGS2lWLU1kJ48bRRHZDewMgbZ+1WR2L5NDMxUjyfNADuNXmG
+  nQnpwJHwXUF3s8ix0DcFXU2z/G4vcLW4FOpy+KbjIoQzJY3sQOdfVvULi8zMdVHN
+  f4UDfxX/AoGABniIKUWGs9xc+gPGPiNXXm9DZjU2XpzaYbXVPqcu2i3HSXUoxGbX
+  /N8cIfqiVGVWIx0Kp69KNxZUMZYH0TeN02G5mCQ7Wasgf198FlCL+kVUR03ankEY
+  cpdfqvvkZLaCMFOnJ88jj/vuzLo6zpoO8WDm1mN8ptzTcjQrNpUgEyo=
+  -----END RSA PRIVATE KEY-----
 ```
 - Certificate
 ```
-    $vim ~/.aws/nick.crt
-    -----BEGIN CERTIFICATE-----
-    MIICsTCCAZkCCQC2dRsoRLLTozANBgkqhkiG9w0BAQUFADAVMRMwEQYDVQQDEwpt
-    aW5pa3ViZUNBMB4XDTE5MDkzMDE3MzgwM1oXDTIyMDYyNjE3MzgwM1owIDENMAsG
-    A1UEAwwEbmljazEPMA0GA1UECgwGbXl0ZWFtMIIBIjANBgkqhkiG9w0BAQEFAAOC
-    AQ8AMIIBCgKCAQEAo4/nVKTIeMt+byJq2RlRPwaQrpKaz3vv29leJbe72hh42sKK
-    o+QTTWMVAVZ53Uh+slrAk/oIo7Fd4iAugHekMEUpPrbRo19rQ35HR7JS6GotyVcR
-    4T0VuBPMb2ut18KZgA1rIjX67Jl2RQXolo8mEve09xH/uVVEr6QmcUBy3ms3lfgB
-    Pv424JObt8SfRm0Km3ZSNcJTH4/wIl2FIDccibROvll6ws9sS/pdxOXcmD/N0kV9
-    /qHn9l/6+oOqwvTh/3zHAfFzNlIgWDKo1cYe4A0Gl6oRKyObjR1ruB7oA3x9hOKy
-    FJY9akO9IXiiOv/1FELhit5MD75BdzZm5nMs6wIDAQABMA0GCSqGSIb3DQEBBQUA
-    A4IBAQDD3yILyfHErcwhCvgiD4ODqqw5dmC7SH4m7YYXeRMIg2XW3YjRsP5Dww/M
-    6rQtGkoSuiyJJs+lK0IZaPTSidHqe9Dfad5jNNUuMDkgClGlVmlT3EK7J7YvSbh0
-    bIWzOfDBc+8OE0RRrR94jtYdpMxTf3p5M0iOJR8OS7822sv2aHylOEMPLt2fT/g7
-    qgB2/nW3RzkTPDKbYm7IEqhL+eltIK/p+sNztDvbrxbKxXjauaHvVtMO23UP4dJD
-    AZ0gZOm4zTF6mQykrcDm6m1zKWiaD+I0lhtuJ4+ZPZsZBI8w3Dmm+7ovoiT6hpbS
-    oriyFXb/doOIIn0mTnNU/nyMYswW
-    -----END CERTIFICATE-----
+  $vim ~/.aws/nick.crt
+  -----BEGIN CERTIFICATE-----
+  MIICsTCCAZkCCQC2dRsoRLLTozANBgkqhkiG9w0BAQUFADAVMRMwEQYDVQQDEwpt
+  aW5pa3ViZUNBMB4XDTE5MDkzMDE3MzgwM1oXDTIyMDYyNjE3MzgwM1owIDENMAsG
+  A1UEAwwEbmljazEPMA0GA1UECgwGbXl0ZWFtMIIBIjANBgkqhkiG9w0BAQEFAAOC
+  AQ8AMIIBCgKCAQEAo4/nVKTIeMt+byJq2RlRPwaQrpKaz3vv29leJbe72hh42sKK
+  o+QTTWMVAVZ53Uh+slrAk/oIo7Fd4iAugHekMEUpPrbRo19rQ35HR7JS6GotyVcR
+  4T0VuBPMb2ut18KZgA1rIjX67Jl2RQXolo8mEve09xH/uVVEr6QmcUBy3ms3lfgB
+  Pv424JObt8SfRm0Km3ZSNcJTH4/wIl2FIDccibROvll6ws9sS/pdxOXcmD/N0kV9
+  /qHn9l/6+oOqwvTh/3zHAfFzNlIgWDKo1cYe4A0Gl6oRKyObjR1ruB7oA3x9hOKy
+  FJY9akO9IXiiOv/1FELhit5MD75BdzZm5nMs6wIDAQABMA0GCSqGSIb3DQEBBQUA
+  A4IBAQDD3yILyfHErcwhCvgiD4ODqqw5dmC7SH4m7YYXeRMIg2XW3YjRsP5Dww/M
+  6rQtGkoSuiyJJs+lK0IZaPTSidHqe9Dfad5jNNUuMDkgClGlVmlT3EK7J7YvSbh0
+  bIWzOfDBc+8OE0RRrR94jtYdpMxTf3p5M0iOJR8OS7822sv2aHylOEMPLt2fT/g7
+  qgB2/nW3RzkTPDKbYm7IEqhL+eltIK/p+sNztDvbrxbKxXjauaHvVtMO23UP4dJD
+  AZ0gZOm4zTF6mQykrcDm6m1zKWiaD+I0lhtuJ4+ZPZsZBI8w3Dmm+7ovoiT6hpbS
+  oriyFXb/doOIIn0mTnNU/nyMYswW
+  -----END CERTIFICATE-----
 ```
 檢查既有的設定
-```
+
     $kubectl config view
     apiVersion: v1
     clusters:
@@ -293,16 +293,16 @@ OK，測試成功！
           - eks-cluster
           command: aws-iam-authenticator
           env: null
-```
+
 接著新增nick這個使用者
-```
+
     $kubectl config set-credentials nick --client-certificate ~/.aws/nick.crt --client-key ~/.aws/nick.key
     User "nick" set.
     $kubectl config set-context nick --cluster=eks-cluster.ap-southeast-1.eksctl.io --user=nick
     Context "nick" created.
-```
+
 檢查更新的設定
-```
+
     $kubectl config view
     apiVersion: v1
     clusters:
@@ -337,27 +337,27 @@ OK，測試成功！
       user:
         client-certificate: /home/nick/.aws/nick.crt
         client-key: /home/nick/.aws/nick.key**
-```
+
 顯示當前使用者
-```
+
     $kubectl config current-context
     eks@eks-cluster.ap-southeast-1.eksctl.io
-```
+
 切換到nick
-```
+
     $kubectl config use-context nick
     Switched to context "nick".
-```
+
 顯示當前使用者
-```
+
     $kubectl config current-context
     nick
-```
+
 使用者nick操作集群
-```
+
     $kubectl get po
     error: the server doesn't have a resource type "po"
-```
+
 這是還沒有設定權限造成的
 
 接著我們幫nick新增權限
