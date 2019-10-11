@@ -214,7 +214,7 @@ OK，測試成功！
 新增兩個檔案
 
 - Private Key
-
+```
     $vim ~/.aws/nick.key
     -----BEGIN RSA PRIVATE KEY-----
     MIIEpQIBAAKCAQEAo4/nVKTIeMt+byJq2RlRPwaQrpKaz3vv29leJbe72hh42sKK
@@ -243,9 +243,9 @@ OK，測試成功！
     /N8cIfqiVGVWIx0Kp69KNxZUMZYH0TeN02G5mCQ7Wasgf198FlCL+kVUR03ankEY
     cpdfqvvkZLaCMFOnJ88jj/vuzLo6zpoO8WDm1mN8ptzTcjQrNpUgEyo=
     -----END RSA PRIVATE KEY-----
-
+```
 - Certificate
-
+```
     $vim ~/.aws/nick.crt
     -----BEGIN CERTIFICATE-----
     MIICsTCCAZkCCQC2dRsoRLLTozANBgkqhkiG9w0BAQUFADAVMRMwEQYDVQQDEwpt
@@ -264,9 +264,9 @@ OK，測試成功！
     AZ0gZOm4zTF6mQykrcDm6m1zKWiaD+I0lhtuJ4+ZPZsZBI8w3Dmm+7ovoiT6hpbS
     oriyFXb/doOIIn0mTnNU/nyMYswW
     -----END CERTIFICATE-----
-
+```
 檢查既有的設定
-
+```
     $kubectl config view
     apiVersion: v1
     clusters:
@@ -293,16 +293,16 @@ OK，測試成功！
           - eks-cluster
           command: aws-iam-authenticator
           env: null
-
+```
 接著新增nick這個使用者
-
+```
     $kubectl config set-credentials nick --client-certificate ~/.aws/nick.crt --client-key ~/.aws/nick.key
     User "nick" set.
     $kubectl config set-context nick --cluster=eks-cluster.ap-southeast-1.eksctl.io --user=nick
     Context "nick" created.
-
+```
 檢查更新的設定
-
+```
     $kubectl config view
     apiVersion: v1
     clusters:
@@ -337,27 +337,27 @@ OK，測試成功！
       user:
         client-certificate: /home/nick/.aws/nick.crt
         client-key: /home/nick/.aws/nick.key**
-
+```
 顯示當前使用者
-
+```
     $kubectl config current-context
     eks@eks-cluster.ap-southeast-1.eksctl.io
-
+```
 切換到nick
-
+```
     $kubectl config use-context nick
     Switched to context "nick".
-
+```
 顯示當前使用者
-
+```
     $kubectl config current-context
     nick
-
+```
 使用者nick操作集群
-
+```
     $kubectl get po
     error: the server doesn't have a resource type "po"
-
+```
 這是還沒有設定權限造成的
 
 接著我們幫nick新增權限
