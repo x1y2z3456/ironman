@@ -13,9 +13,9 @@ Type: kubernetes
 
 複習傳送門：
 
-- [[Day14] k8s管理篇（一）：Monitoring、Job、CronJob](https://www.notion.so/Day14-k8s-Monitoring-Job-CronJob-ddcbf117e6ed49bbb2d4d2b1dbd39021)
-- [[Day15] k8s管理篇（二）：Resource Quota、Namespaces](https://www.notion.so/Day15-k8s-Resource-Quota-Namespaces-17a70a524a854a198ae23818e16bb7d9)
-- [[Day17] k8s管理篇（三）：User Management、RBAC、Node Ｍaintenance](https://www.notion.so/Day17-k8s-User-Management-RBAC-Node-aintenance-c19b2da1e50f4e4abaeb923cd41998f7)
+- [[Day14] k8s管理篇（一）：Monitoring、Job、CronJob](https://github.com/x1y2z3456/ironman/blob/master/day14/README.md)
+- [[Day15] k8s管理篇（二）：Resource Quota、Namespaces](https://github.com/x1y2z3456/ironman/blob/master/day15/README.md)
+- [[Day17] k8s管理篇（三）：User Management、RBAC、Node Ｍaintenance](https://github.com/x1y2z3456/ironman/blob/master/day17/README.md)
 
 # 管理篇（下）
 
