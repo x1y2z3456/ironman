@@ -99,14 +99,14 @@ Elastic Block Store (EBS) 是易於使用的高效能區塊儲存服務，專為
 如果k8s是1.10版：
 
 - 套用gp2設置
-
-    $kubectl apply -f gp2-storage-class.yaml -n ns-eks
-    storageclass.storage.k8s.io "gp2" created
-
+```
+$kubectl apply -f gp2-storage-class.yaml -n ns-eks
+storageclass.storage.k8s.io "gp2" created
+```
 - 將gps設為default
-
-    $kubectl patch storageclass gp2 -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}' -n=ns-eks
-
+```
+$kubectl patch storageclass gp2 -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}' -n=ns-eks
+```
 不是的話就都不用做，應該剛開始就如同筆者畫面所顯示的
 
     $kubectl get storageclasses -n ns-eks
