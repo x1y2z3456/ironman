@@ -266,7 +266,7 @@ OK，可以知道有兩個節點，接著我們來操作下
 
 假設我們要維護`ip-192-168-66-13.ap-southeast-1.compute.internal/192.168.66.13`這個節點
 
-所以我們要先做的是Drain，[這裡](https://ithelp.ithome.com.tw/articles/10223717)有預告過。
+所以我們要先做的是Drain，[這裡](https://github.com/x1y2z3456/ironman/tree/master/day17)有預告過。
 
     $kubectl drain ip-192-168-66-13.ap-southeast-1.compute.internal --ignore-daemonsets
     node/ip-192-168-66-13.ap-southeast-1.compute.internal already cordoned
