@@ -9,7 +9,7 @@ Type: kubernetes
 
 # Resource Quota
 
-資源配額，顧名思義是指在集群中能夠分配的資源，其實這段內容的一小部分在前面有稍微提過，主要是在介紹[Pod](https://ithelp.ithome.com.tw/articles/10219488)和[Deployment](https://ithelp.ithome.com.tw/articles/10219982)的時候。我們會在這邊進一步了解request和limit的詳細設定。
+資源配額，顧名思義是指在集群中能夠分配的資源，其實這段內容的一小部分在前面有稍微提過，主要是在介紹[Pod](https://github.com/x1y2z3456/ironman/tree/master/day8)和[Deployment](https://github.com/x1y2z3456/ironman/tree/master/day9)的時候。我們會在這邊進一步了解request和limit的詳細設定。
 
 # Namespaces
 
