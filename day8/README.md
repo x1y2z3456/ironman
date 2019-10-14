@@ -127,8 +127,8 @@ Pod的狀態
 
 這個章節分為兩個部分：
 
-- liveness probe：針對pod的自我健康狀態檢查，若有異常pod會重啟container
-- readiness probe：針對pod的可access的檢查，但和liveness probe不同的是，如果檢查有異常，他不會重啟container，而是將它的IP設定移除，這樣一來它就不能被任何地方連線
+- `liveness probe`：針對pod的自我健康狀態檢查，若有異常pod會重啟container
+- `readiness probe`：針對pod的可access的檢查，但和liveness probe不同的是，如果檢查有異常，他不會重啟container，而是將它的IP設定移除，這樣一來它就不能被任何地方連線
 
 我們先來看liveness probe的例子：
 
