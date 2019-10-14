@@ -8,13 +8,26 @@ Type: kubernetes
 
 今天我們主要來探討關於“排程”，也就是所謂的Scheduling這件事情，牽涉到這類的功能有：Affinity and Anti-Affinity、Taints and Tolerations、Cordon and Uncordon、Drain等等，接下來的時間，我們就來綜合運用操作一下，體驗下在AWS上集群操作和minikube有何不同。
 
-# 進階篇
+# 進階篇（下）
 
 我們來測試一個簡單的例子，模擬一般日常維運時可能會有的操作
 
 這個例子會結合NodeAffinity、Taints and Tolerations、Cordon and Uncordon、Drain的觀念
 
-複習傳送門：[Affinity and Anti-Affinity、Taints and Tolerations](https://ithelp.ithome.com.tw/articles/10221929)、[Cordon and Uncordon、Drain](https://ithelp.ithome.com.tw/articles/10223717)
+步驟如下：
+1. 集群內有兩個節點，分別為A、B
+2. 將ReplicaSet=2且NodeAffinity為machine=maintain的Deployment部署到集群上
+3. 檢查集群Pod狀態，此時AB上都可見其對應的Pod
+4. 將A設定Drain，這時候A上的Pod會轉移到B上，檢查集群Pod就看到
+5. 將A設定Uncordon，這時候A可以調度了
+6. 將A設定Taint，如果沒有Toleraion就不能調度到A上
+7. 重啟Deployment，這時候Pod還是只會調度到B上
+8. 修改Deployment，A增加Toleraion
+9. 重啟Deployment，這時候Pod會調度在A、B上
+
+複習傳送門：
+- [[Day13] k8s進階篇（四）：Affinity and Anti-Affinity、Taints and Tolerations](https://github.com/x1y2z3456/ironman/tree/master/day13)
+- [[Day17] k8s管理篇（三）：User Management、RBAC、Node Ｍaintenance](https://github.com/x1y2z3456/ironman/tree/master/day17)
 
 檢查集群的節點狀態
 
