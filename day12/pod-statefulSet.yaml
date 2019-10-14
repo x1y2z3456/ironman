@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: helloworld-statefulset
+spec:
+  selector:
+    matchLabels:
+      app: helloworld
+  serviceName: "helloworld"
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: helloworld
+    spec:
+      containers:
+      - name: k8s-demo
+        image: 105552010/k8s-demo:v1
+        ports:
+        - containerPort: 3000

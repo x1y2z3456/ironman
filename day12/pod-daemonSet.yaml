@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: helloworld-daemonset
+  labels:
+    app: helloworld
+spec:
+  selector:
+    matchLabels:
+      app: helloworld
+  template:
+    metadata:
+      labels:
+        app: helloworld
+    spec:
+      containers:
+      - name: k8s-demo
+        image: 105552010/k8s-demo:v1
+        ports:
+        - containerPort: 3000

@@ -326,5 +326,5 @@ DaemonSet能確保部份或所有node運行Pod的副本持續運行。
 
 # 參考資料
 
-- StatefulSet簡介
-- DaemonSet簡介
+- [StatefulSet簡介](https://kubernetes.io/zh/docs/tutorials/stateful-application/basic-stateful-set/)
+- [DaemonSet簡介](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
