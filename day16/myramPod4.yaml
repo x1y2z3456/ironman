@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myram4
+spec:
+  containers:
+  - name: myram-container-1
+    image: mytutorials/centos:bench
+    imagePullPolicy: IfNotPresent
+
+    command: ['sh', '-c', 'stress --vm 1 --vm-bytes 50M --vm-hang 3000 -t 3600']
+
+    resources:
+      limits:
+        memory: "100Mi"
+      requests:
+        memory: "10Mi"
+
+  restartPolicy: Never
+  terminationGracePeriodSeconds: 0

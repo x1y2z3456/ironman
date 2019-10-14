@@ -5,13 +5,13 @@ Type: kubernetes
 
 # 前言
 
-昨天我們看過了Resource Quota和Namespace的使用，今天我們再延伸介紹之前約定要探討的主題：PersistentVolume，之前在[Volume](https://ithelp.ithome.com.tw/articles/10220966)有提過要介紹，所謂的Persistent Volume要運作，就必須要藉由Persistent Volume Claim去與其binding才行。另外，這邊也會介紹ephemeral-storage的用法，這我們之前提過是限制空間用的，當然這用法有不同模式，底下詳細介紹。
+昨天我們看過了Resource Quota和Namespace的使用，今天我們再延伸介紹之前約定要探討的主題：PersistentVolume，之前在[Volume](https://github.com/x1y2z3456/ironman/tree/master/day11)有提過要介紹，所謂的Persistent Volume要運作，就必須要藉由Persistent Volume Claim去與其binding才行。另外，這邊也會介紹ephemeral-storage的用法，這我們之前提過是限制空間用的，當然這用法有不同模式，底下詳細介紹。
 
 # 寫在前面
 
 注意到這篇是之前的內容加上新的pv及pvc的整合應用，如果對Pod、Deployment、Service、Job內容有不熟悉的朋友，強烈建議先把前面看完再往下看喔！
 
-傳送門：[Pod](https://ithelp.ithome.com.tw/articles/10219488)、[Deployment](https://ithelp.ithome.com.tw/articles/10219982)、[Service](https://ithelp.ithome.com.tw/articles/10219982)、[Job](https://ithelp.ithome.com.tw/articles/10222296)
+傳送門：[Pod](https://github.com/x1y2z3456/ironman/tree/master/day8)、[Deployment](https://github.com/x1y2z3456/ironman/tree/master/day9)、[Service](https://github.com/x1y2z3456/ironman/tree/master/day9)、[Job](https://github.com/x1y2z3456/ironman/tree/master/day14)
 
 # Persistent Volume與Persistent Volume Claim
 
@@ -288,7 +288,7 @@ Type: kubernetes
 
 接著我們開啟瀏覽器，檢視http://192.168.99.100:30080/adminer.php
 
-![https://ithelp.ithome.com.tw/upload/images/20191001/20120468Xd8v7pO0wU.png](https://ithelp.ithome.com.tw/upload/images/20191001/20120468Xd8v7pO0wU.png)
+![](_2019-09-30_2-bcf2851d-b13e-42f9-b4a3-8118e66c60fa.58.45.png)
 
 OK，可以透過網頁操作並設置MySQL資料庫，測試成功！
 
@@ -423,7 +423,7 @@ Node上的eviction有些設定可以修改，像是設置eviction policy，這�
 
 新增一個myramPod
 
-    $vim myramPod.yaml
+    $vim myramPod2.yaml
     apiVersion: v1
     kind: Pod
     metadata:
@@ -583,4 +583,3 @@ OK，經測試會將超出limit的Pod都逐出，直到系統沒有Memory Pressu
 - [Eviction Policy](https://kubernetes.io/docs/tasks/administer-cluster/out-of-resource/)
 - [Eviction Policy Test](https://www.alibabacloud.com/blog/kubernetes-eviction-policies-for-handling-low-ram-and-disk-space-situations---part-1_595202)
 - [Minikube Set Up](https://magda.io/docs/installing-minikube.html)
-
