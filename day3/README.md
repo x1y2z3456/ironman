@@ -26,25 +26,25 @@ Type: docker,kubernetes
 ### 方法一：使用curl安裝
 
 - 下載安裝包
-
-    curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
-
+```
+curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
+```
 - 賦予kubectl執行的權限
-
-    chmod +x ./kubectl
-
+```
+chmod +x ./kubectl
+```
 - 將kubectl置於系統預設執行路徑底下
-
-    sudo mv ./kubectl /usr/local/bin/kubectl
-
+```
+sudo mv ./kubectl /usr/local/bin/kubectl
+```
 ### 方法二：使用homebrew安裝（推
 
 homebrew是macOS常用的套件管理程式，用這個去安裝會非常簡單
 
 - 下homebrew的指令安裝kubectl
-
-    brew install kubernetes-cli
-
+```
+brew install kubernetes-cli
+```
 ## 3.  安裝虛擬機
 
 筆者是用免費的VirtualBox，下載dmg檔並安裝就可以
@@ -128,13 +128,13 @@ homebrew是macOS常用的套件管理程式，用這個去安裝會非常簡單
 
 簡易說明下這個檔案的格式內容：
 
-apiVersion : API的版本
+`apiVersion` : API的版本
 
-kind : 物件的種類，物件我們前面有提過分為Basic和Advance，這邊是Basic的Pod，詳細後面會介紹
+`kind` : 物件的種類，物件我們前面有提過分為Basic和Advance，這邊是Basic的Pod，詳細後面會介紹
 
-metadata : name是指pod的名稱、label是用來標記物件的，在管理的時候方便控管
+`metadata` : name是指pod的名稱、label是用來標記物件的，在管理的時候方便控管
 
-spec : name定義定義container的名稱、image定義使用的鏡像、port是指它開放的port
+`spec` : name定義定義container的名稱、image定義使用的鏡像、port是指它開放的port
 
 ### 開啟一個pod
 
