@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: test
+spec:
+  rules:
+  - host: offer.service.com
+    http:
+      paths:
+      - path: /svc1
+        backend:
+          serviceName: s1
+          servicePort: 80
+      - path: /svc2
+        backend:
+          serviceName: s2
+          servicePort: 80

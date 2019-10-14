@@ -1,0 +1,17 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: v-pod
+  labels:
+    name: Volume
+spec:
+  volumes:
+  - name: example-volume
+    emptyDir: {}
+  containers:
+  - name: volume-container
+    image: 105552010/k8s-demo
+    command: ["/bin/sh", "-c", "sleep infinity"]
+    volumeMounts:
+    - name: example-volume
+      mountPath: /tmp/volume
