@@ -1,0 +1,19 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: secret-ssh-pod
+  labels:
+    name: secret-ssh
+spec:
+  volumes:
+  - name: secret-volume
+    secret:
+      secretName: ssh-key-secret
+      defaultMode: 256
+  containers:
+  - name: ssh-container
+    image: rastasheep/ubuntu-sshd:16.04
+    command: ["/bin/sh", "-c", "cat /etc/ssh-key/id_rsa.pub >> /root/.ssh/authorized_keys && /usr/sbin/sshd -D"]
+    volumeMounts:
+    - name: secret-volume
+      mountPath: /etc/ssh-key
