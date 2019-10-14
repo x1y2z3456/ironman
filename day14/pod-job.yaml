@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: helloworld-job
+spec:
+  ttlSecondsAfterFinished: 60
+  template:
+    metadata:
+      labels:
+        app: helloworld
+    spec:
+      containers:
+      - name: k8s-demo
+        image: 105552010/k8s-demo:v1
+        command: ["echo", "helloworld"]
+        ports:
+        - containerPort: 3000
+      restartPolicy: Never
