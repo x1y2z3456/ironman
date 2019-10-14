@@ -21,7 +21,7 @@ Type: kubernetes
 
 我們來看個例子會比較清楚：
 
-    $vim first-deploy.yaml
+    $vim pod-deploy.yaml
     apiVersion: extensions/v1beta1
     kind: Deployment
     metadata:
